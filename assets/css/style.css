@@ -1,0 +1,53 @@
+/* ========================================================
+                        IMPORTS
+==========================================================*/
+
+
+
+/* ========================================================
+                    GENERAL STYLINGS
+==========================================================*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+/* ========================================================
+                    HEADER STYLINGS
+==========================================================*/
+
+header{
+    background-color: rgba(0, 0, 0, 0.44);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+p{
+    line-height: 40px;
+    color: white;
+}
+
+ul{
+    display: flex;
+    column-gap: 20px;
+}
