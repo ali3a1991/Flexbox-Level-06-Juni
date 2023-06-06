@@ -47,7 +47,27 @@ p{
     color: white;
 }
 
-ul{
+header nav ul{
     display: flex;
     column-gap: 20px;
 }
+
+main ul{
+    background-color: rgba(165, 42, 42, 0.763);
+    width: 250px;
+    height: 350px;
+    margin: 50px;
+    padding: 20px;
+}
+
+main ul li a{
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+main ul li a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
