@@ -1,0 +1,102 @@
+/* ========================================================
+                        IMPORTS
+==========================================================*/
+
+@font-face {
+    font-family: 'lato';
+    src: url('../font/Lato-Regular.ttf');
+}
+
+/* ========================================================
+                    GENERAL STYLINGS
+==========================================================*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D9E8E5;
+    font-family: 'lato';
+}
+
+li{
+    list-style: none;
+}
+
+.left_nav li:hover , a:hover , .right_nav li:hover{
+    background-color: gray;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ========================================================
+                    HEADER STYLINGS
+==========================================================*/
+
+header{
+    display: flex;
+    align-items: baseline;
+    padding: 15px 50px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: baseline;
+    column-gap: 50px;
+    width: 100vw;
+}
+
+.logo{
+    display: flex;
+    column-gap: 5px;
+    align-items: baseline;
+}
+
+.brand_name{
+    font-size: 24px;
+}
+
+header ul{
+    display: flex;
+    column-gap: 20px;
+}
+
+.right_nav{
+    margin-left: auto;
+}
+
+/* ========================================================
+                    HEADER STYLINGS
+==========================================================*/
+
+main{
+    max-width: 1440px;
+    margin: 20px auto;
+    padding: 40px;
+}
+.galery{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+.galery img:hover{
+    box-shadow: 0 0 10px 5px gray;
+}
